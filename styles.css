@@ -185,7 +185,7 @@ footer .footer-logo {
   cursor: pointer;
 }
 
-.modal-content input {
+.modal-content input,.modal-content select {
   width: 90%;
   padding: 0.75rem;
   margin: 1rem 0;
@@ -200,6 +200,14 @@ footer .footer-logo {
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
+}
+/* label{
+  display: block;
+  text-align: left;
+} */
+.required {
+  color: red;
+  margin-left: 2px;
 }
 
 @media (min-width: 600px) {

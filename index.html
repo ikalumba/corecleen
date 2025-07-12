@@ -121,12 +121,54 @@
     <div id="modal" class="modal">
       <div class="modal-content">
         <span id="closeModal" class="close">&times;</span>
-        <h2>Sign Up for Early Access</h2>
-        <form>
+        <h2>Book a cleaning</h2>
+        <!-- <form>
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <input type="text" placeholder="Your phone contact" required />
-          <input type="text" placeholder="Select a service" required />
+
+          <select required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="deep-cleaning">Deep Cleaning</option>
+            <option value="office-cleaning">Office Cleaning</option>
+            <option value="move-in-out">Move-in / Move-out Cleaning</option>
+            <option value="apartment-cleaning">Apartment Cleaning</option>
+            <option value="post-construction">Post-Construction Cleanup</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form> -->
+
+        <form>
+          <label>
+            Your Name <span class="required">*</span>
+            <input type="text" required />
+          </label>
+
+          <label>
+            Your Email <span class="required">*</span>
+            <input type="email" required />
+          </label>
+
+          <label>
+            Your Phone Contact <span class="required">*</span>
+            <input type="text" required />
+          </label>
+
+          <label>
+            Select a Service <span class="required">*</span>
+            <select required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="deep-cleaning">Deep Cleaning</option>
+              <option value="office-cleaning">Office Cleaning</option>
+              <option value="move-in-out">Move-in / Move-out</option>
+              <option value="apartment-cleaning">Apartment Cleaning</option>
+              <option value="post-construction">
+                Post-Construction Cleanup
+              </option>
+            </select>
+          </label>
+
           <button type="submit">Submit</button>
         </form>
       </div>
