@@ -59,7 +59,7 @@ body {
       rgba(0, 0, 0, 0.3)
     ),
     url("/assets/toon-lambrechts-TpNA_02AzXY-unsplash.jpg");
-  background-size: cover;  
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,14 +89,15 @@ body {
 .hero button:hover {
   background-color: #0056b3;
 }
-.hero-title, .hero-subtitle{
+.hero-title,
+.hero-subtitle {
   color: #fff;
 }
 
 .why-us,
 .features,
 .testimonials {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -155,16 +156,19 @@ footer .footer-logo {
   color: white;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 50%;
+  border-radius: 20%;
   cursor: pointer;
+  font-weight: bold;
 }
-
 
 .modal {
   display: none;
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
 }
@@ -180,12 +184,14 @@ footer .footer-logo {
 
 .modal-content .close {
   position: absolute;
-  top: 10px; right: 15px;
+  top: 10px;
+  right: 15px;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
-.modal-content input,.modal-content select {
+.modal-content input,
+.modal-content select {
   width: 90%;
   padding: 0.75rem;
   margin: 1rem 0;
@@ -194,7 +200,7 @@ footer .footer-logo {
 }
 
 .modal-content button {
-  background: #007BFF;
+  background: #007bff;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -217,7 +223,6 @@ footer .footer-logo {
   .testimonial-grid {
     grid-template-columns: repeat(2, 1fr);
   }
- 
 }
 
 @media (min-width: 900px) {
@@ -251,19 +256,19 @@ footer .footer-logo {
   .hamburger {
     display: block;
   }
-   .hero h1 {
-  font-size: 2.5rem;
-}
+  .hero h1 {
+    font-size: 2.5rem;
+  }
 
-.hero p {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-}
-.modal-content{
-padding: 1.5rem;
-  
-  max-width: 300px;
-}
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  .modal-content {
+    padding: 1.5rem;
+
+    max-width: 300px;
+  }
 }
 
 /* Animations */
