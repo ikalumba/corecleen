@@ -21,10 +21,8 @@ body {
   justify-content: space-between;
   padding: 1rem 2rem;
   background: transparent;
-  /* position: fixed; */
   width: 100%;
   top: 0;
-  /* z-index: 1000; */
 }
 
 .navbar .logo {
@@ -40,8 +38,6 @@ body {
 
 #nav-links a {
   text-decoration: none;
-  /* color: var(--primary);
-  font-weight: 500; */
 }
 
 .nav-link {
@@ -89,7 +85,8 @@ body {
   margin: 1rem 0;
 }
 
-.hero button, .btn {
+.hero button,
+.btn {
   padding: 0.8rem 1.5rem;
   background-color: var(--primary);
   color: white;
@@ -98,7 +95,8 @@ body {
   cursor: pointer;
 }
 
-.hero button:hover, .btn:hover {
+.hero button:hover,
+.btn:hover {
   background-color: #0056b3;
 }
 .hero-title,
@@ -113,6 +111,16 @@ body {
   text-align: center;
 }
 
+.icon img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.section-description{
+  display: block;
+  max-width: 60rem;
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+}
 .feature-grid,
 .testimonial-grid {
   display: grid;
@@ -127,9 +135,12 @@ body {
   border-radius: 10px;
   transition: transform 0.3s;
 }
-
+.feature-card {
+  cursor: pointer;
+}
 .feature-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .testimonial-card img {
@@ -152,11 +163,18 @@ footer .social-links a {
   color: var(--primary);
   text-decoration: none;
 }
+footer .social-links a img{
+  width: 2.2rem;
+  height: 2.2rem;
+}
 
 footer .footer-logo {
   font-weight: bold;
   margin-bottom: 1rem;
   color: var(--primary);
+}
+.social-links{
+  margin-top: 0.5rem;
 }
 
 #scrollToTop {
@@ -219,10 +237,7 @@ footer .footer-logo {
   border-radius: 5px;
   cursor: pointer;
 }
-/* label{
-  display: block;
-  text-align: left;
-} */
+
 .required {
   color: red;
   margin-left: 2px;
@@ -298,7 +313,6 @@ footer .footer-logo {
 .float-in {
   animation: floatIn 1.5s ease forwards;
 }
-
 
 @keyframes floatIn {
   from {
