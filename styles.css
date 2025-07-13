@@ -115,7 +115,7 @@ body {
   width: 2.8rem;
   height: 2.8rem;
 }
-.section-description{
+.section-description {
   display: block;
   max-width: 60rem;
   font-size: 1.2rem;
@@ -163,7 +163,7 @@ footer .social-links a {
   color: var(--primary);
   text-decoration: none;
 }
-footer .social-links a img{
+footer .social-links a img {
   width: 2.2rem;
   height: 2.2rem;
 }
@@ -173,7 +173,7 @@ footer .footer-logo {
   margin-bottom: 1rem;
   color: var(--primary);
 }
-.social-links{
+.social-links {
   margin-top: 0.5rem;
 }
 
@@ -302,7 +302,7 @@ footer .footer-logo {
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 
 .fade-in.visible {
@@ -311,7 +311,7 @@ footer .footer-logo {
 }
 
 .float-in {
-  animation: floatIn 1.5s ease forwards;
+  animation: floatIn 3.5s ease forwards;
 }
 
 @keyframes floatIn {
